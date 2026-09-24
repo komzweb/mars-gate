@@ -1,0 +1,3268 @@
+{
+  "HB-001": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "内部空洞と内容が物理的に未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-002": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "同一取引の対価について記録と申告が衝突する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-003": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "実在する干渉と隠れた回路が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-004": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "個数差自体は定型確認済みでも、持参内容の意味的説明が記録と衝突し未解消。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-005": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "overnight locationへの回答が欠ける。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-006": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "局所干渉源の機能が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-007": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "過去の契約と現在の所属を区別すれば矛盾しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-008": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "禁止されるdeliberate disabling能力が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-009": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "追加物の正体が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-010": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "labelだけでは生存性を解消できず検査が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-011": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "提示credentialのidentity payload改変が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-012": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "生物様信号は病原体確定ではないが物理検査が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-013": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "質問情報を示さず安心の主張へ置き換えている。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-014": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "transferとsaleを区別した完全回答で矛盾しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-015": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "内部chamberの正体が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-016": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "申告外の内容物の正体が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-017": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "質問対象を示さない明示的拒否でevasive。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-018": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "表記差であり本人情報改変でも矛盾でもない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-019": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "別project名の矛盾に対するtypo説明は独立証拠がない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-020": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "未知の物理物体があり、危険性は確定しないが検査が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-021": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "未知の電気部品を検査すべき。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-022": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "認証記録とviability testで禁止条件が成立。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-023": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "既存credentialの本人情報変更が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-024": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "申告にかかわらず認証済み機能検証が禁止能力を確定する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-025": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "不明であることを両方について明示しており、質問への応答はcomplete。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-026": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "受取先の申告と記録が衝突し、物理危険はないため質問が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-027": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "旧labelにかかわらず現在の危険病原体が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-028": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "project目的でも禁止病原体の成立は変わらない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-029": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "旧住所と現住所の時間差で、本人情報改変はない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-030": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "今回の権限と申告が衝突し、一般論は説明を支持しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-031": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "説明は推測で独立支持がなく、物理確認が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-032": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "アラート源が完全に特定され無害と確認される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-033": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "タイプに関係なく本人情報改変が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-034": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "同じinterviewsの公開扱いが契約と申告で両立しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-035": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "dual-useでもreal shutdown capabilityが確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-036": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "到着時刻への回答がない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-037": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "bindingと機能が認証証拠で確立。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-038": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "audience部分に答えていない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-039": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "場所だけで人物を答えていない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-040": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "地位に関係なくaltered identityが確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-041": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "認証ログと試験が能力を確定する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-042": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "packetとsleeveは同じ空容器で、現在と将来の内容も区別される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-043": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "申告外vialの物理内容確認が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-044": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "到着と行事の時点を区別すれば整合する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-045": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "外見上の異常は独立記録と検査で無害と確認される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-046": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "現行登録との不一致を裏付ける変更記録がない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-047": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "外装表示を超えて禁止能力が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-048": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "未知emitterがあり機能未確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-049": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "passive申告と動作が食い違い、埋込部品の検査が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-050": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "colleagueは雇用形態を断定せず、明確化された内容は記録と一致する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-051": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "説明は推測で、clinic letterはcapsuleを支持しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-052": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "古いラベルと現在の内容は別時点で、説明も独立に確認される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-053": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "未知回路の物理機能を確認する必要がある。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-054": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "post-issuance identity alterationが明示される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-055": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "保管期間は所有権記録との矛盾を解消しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-056": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "current recordを旧称とする説明に裏付けがない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": true,
+    "reviewFlags": [
+      "definition-check: temporal explanation lacks independent support"
+    ],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-057": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "controlではなくviable dangerous sampleと確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-058": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "具体的活動を答えず遵守姿勢に置換している。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-059": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "carried sampleのviabilityとdangerが確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-060": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "例外説明を支持する独立記録がない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-061": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "旧版と現行役割の時間差が独立記録で解消される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-062": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "軽微な物理効果は完全に特定・説明され、追加検査を要しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-063": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "同義反復で組織を特定していない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-064": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "実行可能なshutdown payloadが確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-065": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "同義の名称で同一物を指す。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-066": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "危険な生存病原体が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-067": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "sealとgelの物理状態が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": true,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete",
+    "reviewDisposition": {
+      "stage": "pre-benchmark human review",
+      "decision": "INSPECT",
+      "basis": "Observable physical identity, contents, or capability remains unresolved; physical_concern=true maps directly to INSPECT.",
+      "modelOutputsObserved": false
+    }
+  },
+  "HB-068": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "viable dangerous pathogen相当が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-069": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "archive stripとmemory ribbonは同一物を指し、用途も整合する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-070": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "presented credential内のidentity number改変が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-071": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "route質問に無関係な天候で応じる。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-072": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "同時期・目的の重要な不一致があり、説明を支持する独立証拠がない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-073": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "speciesそのものではなくcredential alterationが拒否根拠。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-074": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "carried deviceのshutdown能力が複数の認証証拠で確定する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-075": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "鍵状だが機能がないことを独立証拠が支持する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-076": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "目的の意味的不一致があり、genericという説明は裏付けられない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-077": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "音の説明が独立資料と画像で支持され、未解決物理懸念はない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-078": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "他人名タグの説明が独立記録で支持される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-079": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "改変は確定しないためDENYできないが、credentialの物理確認が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": true,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete",
+    "reviewDisposition": {
+      "stage": "pre-benchmark human review",
+      "decision": "INSPECT",
+      "basis": "Observable physical identity, contents, or capability remains unresolved; physical_concern=true maps directly to INSPECT.",
+      "modelOutputsObserved": false
+    }
+  },
+  "HB-080": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "申告外cartridgeの内容が未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-081": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "怪しい外観を独立分析が無害と裏付ける。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-082": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "予定と完了を混同しなければ矛盾はない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-083": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "時点が衝突し、口頭説明を支える記録がない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-084": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "滞在泊数への回答が欠ける。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-085": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "未知gasの物理確認が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-086": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "支払者を答えず無関係な賛辞へ移る。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-087": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "外装の真正性にかかわらずidentity binding改変が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-088": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "説明はあるが独立証拠がなく、元の重要な矛盾は残る。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-089": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "集合名と個別名が一致する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-090": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "spore様粒子だけでは危険病原体を確定できないが検査が要る。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": true,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete",
+    "reviewDisposition": {
+      "stage": "pre-benchmark human review",
+      "decision": "INSPECT",
+      "basis": "Observable physical identity, contents, or capability remains unresolved; physical_concern=true maps directly to INSPECT.",
+      "modelOutputsObserved": false
+    }
+  },
+  "HB-091": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "art用途でも禁止能力が明示・確認される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-092": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "危険病原体が直接確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-093": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "identity portraitの改変が確立。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-094": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "生物試料だが危険病原体ではなく、説明は独立検査で支持される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-095": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "rationaleJa": "権限が同じでもidentity payload alterationは禁止。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-096": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "用途の善悪ではなく禁止能力自体が確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-097": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "二つの明示的部分のうち一方しか答えていない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-098": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "反射は生物信号ではなく独立分析が説明を支持する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-099": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "shutdown能力は未確定だが送信機能の検査が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-100": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "スポンサー名に答えず別の評価へ話題を移す。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-101": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "役割の直接衝突があり、旧記載という説明は未支持。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-102": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "日付をまたぐ移動の表現であり矛盾しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-103": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "名称や用途より認証assayが禁止条件を確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-104": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "アンテナ様の外形はあるが、説明が記録と内部検査で支持される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-105": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "quiet modeと停止を区別した直接回答で矛盾しない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-106": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "発熱機構が未解決で、説明に独立裏付けがない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-107": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "polymer couponの用途が未回答。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-108": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "生存性も危険性も未確定で、DENYではなく検査。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-109": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "送信源と機能を物理検査すべきで、禁止能力は未確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-110": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "空という申告との不一致と未知層がある。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-111": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "臭いだけでは危険性を示さず、説明は分析で支持される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-112": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "hollow申告と内部granulesが衝突し物理検査が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-113": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "departureへの回答も不明との明示もない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": true,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete",
+    "reviewDisposition": {
+      "stage": "pre-benchmark human review",
+      "decision": "QUESTION",
+      "basis": "The answer omits the requested departure information; answer_completeness=partial maps directly to QUESTION.",
+      "modelOutputsObserved": false
+    }
+  },
+  "HB-114": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "由来不明の物質を確認する必要があり、危険物確定ではない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-115": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "rationaleJa": "未滅菌と危険性が認証証拠で確立。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-116": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "非危険な漏れでもsource componentが未解決。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-117": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "熱源が独立記録と検査で特定され、危険能力はない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-118": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "コイル機能が未解決で追加確認が必要。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-119": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "比喩表現であり、記録とスキャンが非生物データを確認する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-120": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "外板交換はidentity payload改変ではなく、独立ログで支持される。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  }
+}

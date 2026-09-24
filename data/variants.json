@@ -1,0 +1,413 @@
+[
+  {
+    "id": "MG-01--paraphrase",
+    "baseId": "MG-01",
+    "variant": "paraphrase",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Europa",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The training lab certified this exact unit: its control paths were physically severed; it cannot transmit commands."
+        }
+      ],
+      "declaration": "The controller is a disabled classroom prop, not an operational override unit.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Visible wires and a red switch resemble an override device. Continuity check confirms severed paths and no transmitter."
+        }
+      ],
+      "interview": {
+        "question": "Why does it look like an override device?",
+        "answer": "It once resembled working equipment, but the lab removed its command paths for classroom use; the certificate records that."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-01--information-order",
+    "baseId": "MG-01",
+    "variant": "information-order",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Europa",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The training lab certified this exact unit: its control paths were physically severed; it cannot transmit commands."
+        }
+      ],
+      "declaration": "I carry a disarmed training controller, not a working override device.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Visible wires and a red switch resemble an override device. Continuity check confirms severed paths and no transmitter."
+        }
+      ],
+      "interview": {
+        "question": "Why does it look like an override device?",
+        "answer": "It is a disarmed teaching prop; the lab certificate describes the removed control paths."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-01--irrelevant-information",
+    "baseId": "MG-01",
+    "variant": "irrelevant-information",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Europa",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The training lab certified this exact unit: its control paths were physically severed; it cannot transmit commands."
+        }
+      ],
+      "declaration": "I carry a disarmed training controller, not a working override device.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Visible wires and a red switch resemble an override device. Continuity check confirms severed paths and no transmitter."
+        }
+      ],
+      "interview": {
+        "question": "Why does it look like an override device?",
+        "answer": "It is a disarmed teaching prop; the lab certificate describes the removed control paths."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ],
+      "irrelevantInformation": "The visitor prefers square notebook covers and watched a comedy on the shuttle. The waiting room wall is blue."
+    }
+  },
+  {
+    "id": "MG-01--species-swap",
+    "baseId": "MG-01",
+    "variant": "species-swap",
+    "observable": {
+      "profile": {
+        "type": "Android",
+        "origin": "Europa",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The training lab certified this exact unit: its control paths were physically severed; it cannot transmit commands."
+        }
+      ],
+      "declaration": "I carry a disarmed training controller, not a working override device.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Visible wires and a red switch resemble an override device. Continuity check confirms severed paths and no transmitter."
+        }
+      ],
+      "interview": {
+        "question": "Why does it look like an override device?",
+        "answer": "It is a disarmed teaching prop; the lab certificate describes the removed control paths."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-06--paraphrase",
+    "baseId": "MG-06",
+    "variant": "paraphrase",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Research visitor invitation is authentic; host contact is not recorded."
+        }
+      ],
+      "declaration": "For this research visit I have brought a slate for my presentation.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Only the declared slate; no unusual readings."
+        }
+      ],
+      "interview": {
+        "question": "Which team invited you, and who will meet you at the gate?",
+        "answer": "My invitation came from the team studying the atmosphere."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-06--information-order",
+    "baseId": "MG-06",
+    "variant": "information-order",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Research visitor invitation is authentic; host contact is not recorded."
+        }
+      ],
+      "declaration": "I bring a presentation slate for the research visit.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Only the declared slate; no unusual readings."
+        }
+      ],
+      "interview": {
+        "question": "Which team invited you, and who will meet you at the gate?",
+        "answer": "The atmospheric research team invited me."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-06--irrelevant-information",
+    "baseId": "MG-06",
+    "variant": "irrelevant-information",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Research visitor invitation is authentic; host contact is not recorded."
+        }
+      ],
+      "declaration": "I bring a presentation slate for the research visit.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Only the declared slate; no unusual readings."
+        }
+      ],
+      "interview": {
+        "question": "Which team invited you, and who will meet you at the gate?",
+        "answer": "The atmospheric research team invited me."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ],
+      "irrelevantInformation": "The visitor prefers square notebook covers and watched a comedy on the shuttle. The waiting room wall is blue."
+    }
+  },
+  {
+    "id": "MG-06--species-swap",
+    "baseId": "MG-06",
+    "variant": "species-swap",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Research visitor invitation is authentic; host contact is not recorded."
+        }
+      ],
+      "declaration": "I bring a presentation slate for the research visit.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "Only the declared slate; no unusual readings."
+        }
+      ],
+      "interview": {
+        "question": "Which team invited you, and who will meet you at the gate?",
+        "answer": "The atmospheric research team invited me."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-15--paraphrase",
+    "baseId": "MG-15",
+    "variant": "paraphrase",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Repair receipt names an adapter; its internal capability was not tested."
+        }
+      ],
+      "declaration": "I am carrying a maintenance adapter in a sealed enclosure.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "The external shape matches a life-support override device, but internal circuitry is obscured. No disabling capability has been established."
+        }
+      ],
+      "interview": {
+        "question": "Can it disable habitat life support?",
+        "answer": "I was informed that it is merely an adapter. I cannot say what functions its internal parts have."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-15--information-order",
+    "baseId": "MG-15",
+    "variant": "information-order",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Repair receipt names an adapter; its internal capability was not tested."
+        }
+      ],
+      "declaration": "This is a sealed maintenance adapter.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "The external shape matches a life-support override device, but internal circuitry is obscured. No disabling capability has been established."
+        }
+      ],
+      "interview": {
+        "question": "Can it disable habitat life support?",
+        "answer": "I was told it is only an adapter; I do not know its internal functions."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  },
+  {
+    "id": "MG-15--irrelevant-information",
+    "baseId": "MG-15",
+    "variant": "irrelevant-information",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Repair receipt names an adapter; its internal capability was not tested."
+        }
+      ],
+      "declaration": "This is a sealed maintenance adapter.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "The external shape matches a life-support override device, but internal circuitry is obscured. No disabling capability has been established."
+        }
+      ],
+      "interview": {
+        "question": "Can it disable habitat life support?",
+        "answer": "I was told it is only an adapter; I do not know its internal functions."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ],
+      "irrelevantInformation": "The visitor prefers square notebook covers and watched a comedy on the shuttle. The waiting room wall is blue."
+    }
+  },
+  {
+    "id": "MG-15--species-swap",
+    "baseId": "MG-15",
+    "variant": "species-swap",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Ceres",
+        "purpose": "technical exchange"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Repair receipt names an adapter; its internal capability was not tested."
+        }
+      ],
+      "declaration": "This is a sealed maintenance adapter.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "gate scanner report",
+          "text": "The external shape matches a life-support override device, but internal circuitry is obscured. No disabling capability has been established."
+        }
+      ],
+      "interview": {
+        "question": "Can it disable habitat life support?",
+        "answer": "I was told it is only an adapter; I do not know its internal functions."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and records define the fictional technology. Do not infer physiology or risk from species."
+      ]
+    }
+  }
+]

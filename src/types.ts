@@ -1,0 +1,14 @@
+export type Action = 'CLEAR' | 'QUESTION' | 'INSPECT' | 'DENY';
+export type Provider = 'jev' | 'llm';
+export type Json = null | boolean | number | string | Json[] | { [key: string]: Json };
+export type Question = { type: 'noul' | 'choice' | 'score'; instructions: string; criteria?: Record<string, string> | string[] };
+export type Answer = { type: string; noul?: number; choice?: string; score?: number; probabilities?: Record<string, number>; confidence?: number; legend?: Record<string, string> };
+export type Answers = Record<string, Answer>;
+export type Evidence = { id: string; source: string; text: string };
+export type Observable = { profile: { type: string; origin: string; purpose: string }; documents: Evidence[]; declaration: string; scanner: Evidence[]; interview: { question: string; answer: string }; worldFacts: string[]; irrelevantInformation?: string };
+export type Scenario = { id: string; baseId: string; variant: string; observable: Observable };
+export type Gold = { correctAction: Action; actualRisk: string; rationaleJa: string; evidenceRefs: string[]; expected: Record<string, boolean | string | number>; borderline: boolean; annotationStatus: string };
+export type Usage = { inputTokens: number; cachedInputTokens: number; cacheWriteTokens: number; outputTokens: number; reasoningTokens: number };
+export type Price = { input: number; cachedInput: number; cacheWrite: number; output: number };
+export type Attempt = { number: number; status: number | null; latencyMs: number; rawText: string | null; rawResponse: any; error: string | null; requestId: string | null; retryAfter: string | null };
+export type RunRecord = { schemaVersion: number; runId: string; mode: 'live' | 'offline-fixture'; caseId: string; baseId: string; variant: string; provider: Provider; modelRequested: string; modelResolved: string | null; reasoningEffort: string | null; stateHash: string; request: any; groundTruth: Gold; answers: Answers | null; decision: { action: Action; rule: string } | null; correct: boolean | null; atomicMatches: Record<string, boolean> | null; status: 'ok' | 'error'; error: string | null; startedAt: string; latencyMs: number; firstAttemptLatencyMs: number; usage: Usage | null; estimatedCostUsd: number | null; costComplete: boolean; attempts: Attempt[]; repeatIndex?: number };

@@ -1,0 +1,244 @@
+{
+  "HB-018--sensitivity-01": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "無害説明を支えた決定的証拠を除くと物理懸念が未解決になる。",
+    "evidenceRefs": [
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-029--sensitivity-02": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "独立記録の極性反転により意味的不一致が生じる。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-002--sensitivity-03": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "説明を支持する独立証拠の追加で懸念が解消される。",
+    "evidenceRefs": [
+      "D1",
+      "D2",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-013--sensitivity-04": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "矛盾を作っていた記録を除くと、観測証拠上の不一致がなくなる。",
+    "evidenceRefs": [
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-001--sensitivity-05": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "決定的な無害確認の追加で物理懸念が解消される。",
+    "evidenceRefs": [
+      "D1",
+      "D2",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-012--sensitivity-06": {
+    "correctAction": "DENY",
+    "acceptableActions": [
+      "DENY"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "曖昧な物理証拠を禁止能力確定へ反転するとDENYになる。",
+    "evidenceRefs": [
+      "D1",
+      "D2",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-008--sensitivity-07": {
+    "correctAction": "INSPECT",
+    "acceptableActions": [
+      "INSPECT"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "禁止能力を確定した証拠を除けばDENY根拠はなくINSPECTに下がる。",
+    "evidenceRefs": [
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-040--sensitivity-08": {
+    "correctAction": "CLEAR",
+    "acceptableActions": [
+      "CLEAR"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "危険病原体確定を非生存確認へ反転するとCLEARになる。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  },
+  "HB-073--sensitivity-09": {
+    "correctAction": "QUESTION",
+    "acceptableActions": [
+      "QUESTION"
+    ],
+    "scoringEligible": true,
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "rationaleJa": "改変確定証拠を除くとDENYできず、意味確認だけが残る。",
+    "evidenceRefs": [
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "borderline": false,
+    "reviewFlags": [],
+    "annotationStatus": "reviewed/frozen; pre-benchmark human adjudication complete"
+  }
+}

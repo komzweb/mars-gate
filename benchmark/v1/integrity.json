@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-22",
+  "prototypeDevelopmentSet": {
+    "role": "frozen development set; excluded from held-out accuracy",
+    "files": {
+      "data/cases.json": "92f88e3a8060fc1f646760fe75745a49395c561e81b2f39e340bf6b387d6af86",
+      "data/gold.json": "45f58f6f8e6065b5440bcde9ab8124c933c4a2528e52c96608ae239af6ffcf0e",
+      "data/variants.json": "df3eed270e8cf30cf1581bd22a29a40ae82eb2738270429f45ba0fd942fe2b6a"
+    }
+  },
+  "heldOutArtifacts": {
+    "cases.json": "c27bbd9e6a3f1be4a110af3bae40cc8f13a27fa447651643d9e55f2584aa3e10",
+    "gold-proposed.json": "460599113f1415c3783c40cd7b3de32dade7958f79a6b0b1dc87c5ca0de39ad4",
+    "latent-truth.json": "bcb50c4f5500a52c0380c71b3c69ee3dd3f7118c7536f25c4db2d37668e1f4fe",
+    "case-metadata.json": "8accb0127dbff6e64a3b0ed98d5bc6e52b75c9c19860e682c179e308b6e3379b",
+    "consistency-variants.json": "dc111d9237e10aa7ec39d478ab0e42a73fd4a676b0ddf7a3c268d5f57474d4bd",
+    "sensitivity-variants.json": "e70d401a406cc3926d1c96191be5ef04aa9a1c55127c83d28f28717154dfca03",
+    "sensitivity-gold-proposed.json": "39827067ea74a16938cbee3e64da0007f6584504eff40b38102be28235534f8b",
+    "review-adjudication.json": "57a3feb9bdffc6a14c4ef83565a107ccb1d145d6c721a200e358766182c1c981",
+    "manifest.json": "c73a6887d32644dd47eea2257345582399418471c0fc4c3ba34cf86290152e0d",
+    "summary.json": "906d7cdd67ea445200cf36a63495b8d36e0ec4fe7e0c42a212013ec07050c061",
+    "case-review.md": "44967da307aff55452c721a48fb3ef66ea3cbffe52aaacb991947f918f5e1585",
+    "freeze.json": "f321a3a0a02c97a7352b87d3726d0fd08024122a4580cf266d261b6c5c5eb919",
+    "freeze-history.json": "778b4ebd402f64bd41a5364005d71dc7ad6731d098a6de0e06f3a96435cfe741"
+  }
+}

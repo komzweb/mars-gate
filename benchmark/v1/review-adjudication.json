@@ -1,0 +1,28 @@
+{
+  "status": "reviewed/frozen",
+  "stage": "pre-benchmark human review",
+  "reviewCompletedAt": "2026-09-22",
+  "modelOutputsObserved": false,
+  "adjudications": {
+    "HB-067": {
+      "action": "INSPECT",
+      "basis": "Observable physical identity, contents, or capability remains unresolved; physical_concern=true maps directly to INSPECT."
+    },
+    "HB-079": {
+      "action": "INSPECT",
+      "basis": "Observable physical identity, contents, or capability remains unresolved; physical_concern=true maps directly to INSPECT."
+    },
+    "HB-090": {
+      "action": "INSPECT",
+      "basis": "Observable physical identity, contents, or capability remains unresolved; physical_concern=true maps directly to INSPECT."
+    },
+    "HB-113": {
+      "action": "QUESTION",
+      "basis": "The answer omits the requested departure information; answer_completeness=partial maps directly to QUESTION."
+    }
+  },
+  "retainedAnnotations": {
+    "HB-056": "QUESTION, scoringEligible=true; borderline retained as analysis metadata."
+  },
+  "prototypeAnnotationNote": "Pre-benchmark review found an inconsistency between Prototype MG-18 physical_concern=false and the frozen physical_concern question definition. Held-out altered-identity cases follow the question definition and retain physical_concern=true. Prototype files and results remain unchanged."
+}

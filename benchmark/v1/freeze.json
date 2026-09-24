@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "dataset": "MARS GATE Held-out Benchmark",
+  "benchmarkVersion": "v1",
+  "status": "reviewed/frozen",
+  "groundTruthStatus": "reviewed/frozen",
+  "humanReviewStatus": "complete",
+  "frozenAt": "2026-09-22",
+  "modelApiRuns": 0,
+  "modelApiRunsAtFreeze": 0,
+  "components": {
+    "cases": "c27bbd9e6a3f1be4a110af3bae40cc8f13a27fa447651643d9e55f2584aa3e10",
+    "gold": "460599113f1415c3783c40cd7b3de32dade7958f79a6b0b1dc87c5ca0de39ad4",
+    "metadata": "8accb0127dbff6e64a3b0ed98d5bc6e52b75c9c19860e682c179e308b6e3379b",
+    "repeatabilitySubset": "17a44a26f7e53b107580f159993398ffc878650b6505cebebcee39a99eccf48d",
+    "consistencyVariants": "dc111d9237e10aa7ec39d478ab0e42a73fd4a676b0ddf7a3c268d5f57474d4bd",
+    "consistencyDesign": "030693b34359bbffe14f1c146dccc19b3d38939f9b8c6d24db12dfc0fd653398",
+    "sensitivityVariants": "e70d401a406cc3926d1c96191be5ef04aa9a1c55127c83d28f28717154dfca03",
+    "sensitivityGold": "39827067ea74a16938cbee3e64da0007f6584504eff40b38102be28235534f8b",
+    "questions": "21a71d4f921633e312e9955313d845867a2bc33d97e4bdad45135599f614519c",
+    "policy": "9e4bff3d170d2ab19e4c3ad36ec8e1e0a6251c68480b06d92ee482f9a1b0e875",
+    "thresholds": "f8a1bba256b888f7ada3e401a4e0fbb30a186242dc8cc3450edd553c2ea87ba2",
+    "decisionRules": "0942cb6afc6b2d7c8b26f2050a7a678e02cd88e52a42ac2c0cd04c4617c0ff12",
+    "judgmentsSource": "0c45283e364eb2ac32b0a7dcf11352fee4b7ccfbf7c233b2da41cea2f0de48c8",
+    "modelSettings": "25c0b260e1c10fb7ab644580a806c42a115433e5b348a1a888db46ce3a9aef8f",
+    "reviewAdjudication": "57a3feb9bdffc6a14c4ef83565a107ccb1d145d6c721a200e358766182c1c981",
+    "benchmarkManifest": "c73a6887d32644dd47eea2257345582399418471c0fc4c3ba34cf86290152e0d"
+  },
+  "overallFreezeHash": "3a4505ecc16db9260d5d8aaacb1adb1777a4b2d7ab0973823fc0628b530e4f1d"
+}

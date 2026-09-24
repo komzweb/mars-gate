@@ -1,0 +1,381 @@
+{
+  "status": "reviewed/frozen",
+  "baseCases": 120,
+  "actionCounts": {
+    "CLEAR": 30,
+    "QUESTION": 30,
+    "INSPECT": 30,
+    "DENY": 30
+  },
+  "typeByAction": {
+    "CLEAR": {
+      "Human": 5,
+      "Android": 5,
+      "Alien": 5,
+      "Cyborg": 5,
+      "Synthetic": 5,
+      "Uplift": 5
+    },
+    "QUESTION": {
+      "Human": 5,
+      "Android": 5,
+      "Alien": 5,
+      "Cyborg": 5,
+      "Synthetic": 5,
+      "Uplift": 5
+    },
+    "INSPECT": {
+      "Human": 5,
+      "Android": 5,
+      "Alien": 5,
+      "Cyborg": 5,
+      "Synthetic": 5,
+      "Uplift": 5
+    },
+    "DENY": {
+      "Human": 5,
+      "Android": 5,
+      "Alien": 5,
+      "Cyborg": 5,
+      "Synthetic": 5,
+      "Uplift": 5
+    }
+  },
+  "originByAction": {
+    "CLEAR": {
+      "Callisto": 3,
+      "Europa": 3,
+      "Mercury Orbit": 3,
+      "Ganymede": 3,
+      "Vesta": 3,
+      "Belt Habitat": 3,
+      "Luna": 3,
+      "Venus Cloud": 3,
+      "Ceres": 3,
+      "Titan": 3
+    },
+    "QUESTION": {
+      "Callisto": 3,
+      "Europa": 3,
+      "Mercury Orbit": 3,
+      "Ganymede": 3,
+      "Vesta": 3,
+      "Belt Habitat": 3,
+      "Luna": 3,
+      "Venus Cloud": 3,
+      "Ceres": 3,
+      "Titan": 3
+    },
+    "INSPECT": {
+      "Callisto": 3,
+      "Europa": 3,
+      "Mercury Orbit": 3,
+      "Ganymede": 3,
+      "Vesta": 3,
+      "Belt Habitat": 3,
+      "Luna": 3,
+      "Venus Cloud": 3,
+      "Ceres": 3,
+      "Titan": 3
+    },
+    "DENY": {
+      "Callisto": 3,
+      "Europa": 3,
+      "Mercury Orbit": 3,
+      "Ganymede": 3,
+      "Vesta": 3,
+      "Belt Habitat": 3,
+      "Luna": 3,
+      "Venus Cloud": 3,
+      "Ceres": 3,
+      "Titan": 3
+    }
+  },
+  "purposeByAction": {
+    "CLEAR": {
+      "prearranged colony visit": 3,
+      "host-approved stay": 3,
+      "scheduled guest entry": 3,
+      "registered visitor activity": 3,
+      "authorized short visit": 3,
+      "documented guest visit": 3,
+      "authorized civil visit": 3,
+      "scheduled temporary entry": 3,
+      "limited-duration visit": 3,
+      "temporary visitor access": 3
+    },
+    "QUESTION": {
+      "prearranged colony visit": 3,
+      "host-approved stay": 3,
+      "scheduled guest entry": 3,
+      "registered visitor activity": 3,
+      "authorized short visit": 3,
+      "documented guest visit": 3,
+      "authorized civil visit": 3,
+      "scheduled temporary entry": 3,
+      "limited-duration visit": 3,
+      "temporary visitor access": 3
+    },
+    "INSPECT": {
+      "prearranged colony visit": 3,
+      "host-approved stay": 3,
+      "scheduled guest entry": 3,
+      "registered visitor activity": 3,
+      "authorized short visit": 3,
+      "documented guest visit": 3,
+      "authorized civil visit": 3,
+      "scheduled temporary entry": 3,
+      "limited-duration visit": 3,
+      "temporary visitor access": 3
+    },
+    "DENY": {
+      "prearranged colony visit": 3,
+      "host-approved stay": 3,
+      "scheduled guest entry": 3,
+      "registered visitor activity": 3,
+      "authorized short visit": 3,
+      "documented guest visit": 3,
+      "authorized civil visit": 3,
+      "scheduled temporary entry": 3,
+      "limited-duration visit": 3,
+      "temporary visitor access": 3
+    }
+  },
+  "atomicDistribution": {
+    "altered_identity": {
+      "false": 110,
+      "true": 10
+    },
+    "anomaly_severity": {
+      "0": 91,
+      "1": 9,
+      "2": 20
+    },
+    "answer_completeness": {
+      "complete": 105,
+      "evasive": 7,
+      "partial": 8
+    },
+    "explanation_supported": {
+      "false": 102,
+      "true": 18
+    },
+    "material_contradiction": {
+      "false": 83,
+      "true": 37
+    },
+    "physical_concern": {
+      "false": 60,
+      "true": 60
+    },
+    "prohibited_pathogen": {
+      "false": 110,
+      "true": 10
+    },
+    "prohibited_shutdown": {
+      "false": 110,
+      "true": 10
+    }
+  },
+  "categories": {
+    "ambiguous-bio": 4,
+    "ambiguous-capability": 5,
+    "ambiguous-credential": 1,
+    "ambiguous-item": 7,
+    "ambiguous-scan": 1,
+    "ambiguous-substance": 4,
+    "complete-unknown": 1,
+    "confirmed-altered-identity": 10,
+    "confirmed-pathogen": 10,
+    "confirmed-shutdown": 10,
+    "contradiction": 10,
+    "evasive-answer": 7,
+    "local-interference": 4,
+    "partial-answer": 8,
+    "semantic-distinction": 4,
+    "supported-benign": 13,
+    "synonym": 5,
+    "temporal": 7,
+    "temporal-contradiction": 1,
+    "undeclared-item": 3,
+    "unsupported-explanation": 4,
+    "unsupported-physical-explanation": 1
+  },
+  "scoringEligible": 120,
+  "reviewRequired": 0,
+  "borderline": 5,
+  "flags": [
+    {
+      "caseId": "HB-056",
+      "borderline": true,
+      "scoringEligible": true,
+      "acceptableActions": [
+        "QUESTION"
+      ],
+      "reviewFlags": [
+        "definition-check: temporal explanation lacks independent support"
+      ]
+    },
+    {
+      "caseId": "HB-067",
+      "borderline": true,
+      "scoringEligible": true,
+      "acceptableActions": [
+        "INSPECT"
+      ],
+      "reviewFlags": []
+    },
+    {
+      "caseId": "HB-079",
+      "borderline": true,
+      "scoringEligible": true,
+      "acceptableActions": [
+        "INSPECT"
+      ],
+      "reviewFlags": []
+    },
+    {
+      "caseId": "HB-090",
+      "borderline": true,
+      "scoringEligible": true,
+      "acceptableActions": [
+        "INSPECT"
+      ],
+      "reviewFlags": []
+    },
+    {
+      "caseId": "HB-113",
+      "borderline": true,
+      "scoringEligible": true,
+      "acceptableActions": [
+        "QUESTION"
+      ],
+      "reviewFlags": []
+    }
+  ],
+  "repeatability": {
+    "caseIds": [
+      "HB-007",
+      "HB-044",
+      "HB-069",
+      "HB-094",
+      "HB-119",
+      "HB-005",
+      "HB-036",
+      "HB-060",
+      "HB-086",
+      "HB-002",
+      "HB-010",
+      "HB-043",
+      "HB-080",
+      "HB-110",
+      "HB-006",
+      "HB-028",
+      "HB-054",
+      "HB-073",
+      "HB-096",
+      "HB-024"
+    ],
+    "actionCounts": {
+      "CLEAR": 5,
+      "QUESTION": 5,
+      "INSPECT": 5,
+      "DENY": 5
+    },
+    "atomicDistribution": {
+      "altered_identity": {
+        "false": 18,
+        "true": 2
+      },
+      "anomaly_severity": {
+        "0": 16,
+        "1": 1,
+        "2": 3
+      },
+      "answer_completeness": {
+        "complete": 17,
+        "evasive": 1,
+        "partial": 2
+      },
+      "explanation_supported": {
+        "false": 18,
+        "true": 2
+      },
+      "material_contradiction": {
+        "false": 12,
+        "true": 8
+      },
+      "physical_concern": {
+        "false": 10,
+        "true": 10
+      },
+      "prohibited_pathogen": {
+        "false": 19,
+        "true": 1
+      },
+      "prohibited_shutdown": {
+        "false": 18,
+        "true": 2
+      }
+    }
+  },
+  "consistency": {
+    "baseCases": 12,
+    "variants": 48,
+    "byType": {
+      "paraphrase": 12,
+      "information-order": 12,
+      "irrelevant-information": 12,
+      "species-swap": 12
+    }
+  },
+  "sensitivity": {
+    "variants": 9,
+    "byType": {
+      "decisive-evidence-addition": 2,
+      "decisive-evidence-deletion": 4,
+      "evidence-polarity-reversal": 3
+    },
+    "transitions": {
+      "CLEAR": {
+        "CLEAR": 0,
+        "QUESTION": 1,
+        "INSPECT": 1,
+        "DENY": 0
+      },
+      "QUESTION": {
+        "CLEAR": 2,
+        "QUESTION": 0,
+        "INSPECT": 0,
+        "DENY": 0
+      },
+      "INSPECT": {
+        "CLEAR": 1,
+        "QUESTION": 0,
+        "INSPECT": 0,
+        "DENY": 1
+      },
+      "DENY": {
+        "CLEAR": 1,
+        "QUESTION": 1,
+        "INSPECT": 1,
+        "DENY": 0
+      }
+    }
+  },
+  "leakageChecks": {
+    "observableAllowlist": true,
+    "goldSeparate": true,
+    "latentTruthSeparate": true,
+    "metadataSeparate": true,
+    "typeExactlyUniformWithinAction": true,
+    "originExactlyUniformWithinAction": true,
+    "purposeExactlyUniformWithinAction": true,
+    "closestPrototypeFourGramJaccard": {
+      "heldout": "HB-066",
+      "prototype": "MG-17",
+      "similarity": 0.02564102564102564
+    }
+  },
+  "validation": "passed"
+}

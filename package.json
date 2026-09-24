@@ -1,0 +1,29 @@
+{
+  "name": "mars-gate-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.14.0" },
+  "scripts": {
+    "start": "node --experimental-strip-types --env-file-if-exists=.env src/cli.ts",
+    "smoke:live": "node --experimental-strip-types --env-file-if-exists=.env src/cli.ts run --suite base --limit 1",
+    "benchmark:generate": "node --experimental-strip-types scripts/generate-benchmark-v1.ts && node --experimental-strip-types scripts/validate-benchmark-v1.ts",
+    "benchmark:validate": "node --experimental-strip-types scripts/validate-benchmark-v1.ts",
+    "benchmark:verify-freeze": "node --experimental-strip-types scripts/verify-benchmark-freeze.ts",
+    "benchmark:run": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-frozen-benchmark.ts",
+    "benchmark:repeatability": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-frozen-repeatability.ts",
+    "benchmark:consistency": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-frozen-consistency.ts",
+    "benchmark:sensitivity": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-frozen-sensitivity.ts",
+    "benchmark:gpt6-base": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-postfreeze-gpt6-base.ts",
+    "benchmark:gpt6-repeatability": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-postfreeze-gpt6-repeatability.ts",
+    "benchmark:gpt6-consistency": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-postfreeze-gpt6-consistency.ts",
+    "benchmark:gpt6-sensitivity": "node --experimental-strip-types --env-file-if-exists=.env scripts/run-postfreeze-gpt6-sensitivity.ts",
+    "benchmark:final-analysis": "node --experimental-strip-types scripts/run-final-analysis.ts",
+    "ui:prepare": "node --experimental-strip-types scripts/prepare-ui-data.ts",
+    "ui:dev": "npm run ui:prepare && npm --prefix ui run dev",
+    "ui:build": "npm run ui:prepare && npm --prefix ui run build",
+    "ui:test": "npm --prefix ui test",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "check": "node --experimental-strip-types src/cli.ts validate"
+  }
+}

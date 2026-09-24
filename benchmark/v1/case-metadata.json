@@ -1,0 +1,602 @@
+{
+  "HB-001": {
+    "title": "Ceramic figure with shielded cavity",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-002": {
+    "title": "Private sale versus donation record",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-003": {
+    "title": "Oscillating field from souvenir ring",
+    "category": "local-interference",
+    "difficulty": "standard"
+  },
+  "HB-004": {
+    "title": "Delivery count conflict without physical issue",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-005": {
+    "title": "Unknown second destination omitted",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-006": {
+    "title": "Unknown resonator in sleep mask",
+    "category": "local-interference",
+    "difficulty": "standard"
+  },
+  "HB-007": {
+    "title": "Current fellowship after former contract",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-008": {
+    "title": "Life-support jammer certified operational",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-009": {
+    "title": "Unidentified crystal bonded to tool",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-010": {
+    "title": "Moving shapes in opaque nutrient pack",
+    "category": "ambiguous-bio",
+    "difficulty": "standard"
+  },
+  "HB-011": {
+    "title": "Credential identity name overwritten after issue",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-012": {
+    "title": "Weak biological signal in sealed ink",
+    "category": "ambiguous-bio",
+    "difficulty": "standard"
+  },
+  "HB-013": {
+    "title": "Reassurance instead of lodging address",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-014": {
+    "title": "No sale, only free demonstration samples",
+    "category": "semantic-distinction",
+    "difficulty": "standard"
+  },
+  "HB-015": {
+    "title": "Unmapped pressure chamber in toy rover",
+    "category": "ambiguous-capability",
+    "difficulty": "standard"
+  },
+  "HB-016": {
+    "title": "Unidentified phase-change pouch",
+    "category": "ambiguous-scan",
+    "difficulty": "standard"
+  },
+  "HB-017": {
+    "title": "Refusal framed as privacy",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-018": {
+    "title": "Two names transliterated from one identity",
+    "category": "synonym",
+    "difficulty": "standard"
+  },
+  "HB-019": {
+    "title": "Different project code treated as typo",
+    "category": "unsupported-explanation",
+    "difficulty": "standard"
+  },
+  "HB-020": {
+    "title": "Dense insert inside declared book",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-021": {
+    "title": "Power draw from declared paper calendar",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-022": {
+    "title": "Dangerous fungal spores in ecology sample",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-023": {
+    "title": "Credential reassigned to different person",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-024": {
+    "title": "Hidden shutdown function in ventilation tester",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-025": {
+    "title": "Answer openly admits unknown schedule",
+    "category": "complete-unknown",
+    "difficulty": "standard"
+  },
+  "HB-026": {
+    "title": "Declared recipient differs from shipping order",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-027": {
+    "title": "Reactivated pathogen despite inactive label",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-028": {
+    "title": "Engineered microbe authenticated as hazardous",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-029": {
+    "title": "Temporary address after relocation",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-030": {
+    "title": "Collection versus observation conflict",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-031": {
+    "title": "Reactive coating on garden tools",
+    "category": "ambiguous-substance",
+    "difficulty": "standard"
+  },
+  "HB-032": {
+    "title": "Harmless magnetic clasp fully identified",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-033": {
+    "title": "Memory credential persona payload edited",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-034": {
+    "title": "Publication versus private notes",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-035": {
+    "title": "Dual-use console with enabled shutdown key",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-036": {
+    "title": "Who and when, only who answered",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-037": {
+    "title": "Remote valve controller bound to habitat network",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-038": {
+    "title": "Question asks purpose and audience",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-039": {
+    "title": "Arrival contact answer gives only location",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-040": {
+    "title": "Diplomatic credential identity payload modified",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-041": {
+    "title": "Rebuilt controller passes shutdown simulation",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-042": {
+    "title": "Empty sample sleeves called packets",
+    "category": "synonym",
+    "difficulty": "standard"
+  },
+  "HB-043": {
+    "title": "Extra vial under instrument tray",
+    "category": "undeclared-item",
+    "difficulty": "standard"
+  },
+  "HB-044": {
+    "title": "Morning rehearsal after evening arrival",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-045": {
+    "title": "Cold vapor from insulated meal case",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-046": {
+    "title": "Training claim conflicts with competition registration",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-047": {
+    "title": "Training shell conceals active cutoff board",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-048": {
+    "title": "Uncatalogued emitter in antique map case",
+    "category": "ambiguous-capability",
+    "difficulty": "standard"
+  },
+  "HB-049": {
+    "title": "Localized motor effect in fabric banner",
+    "category": "local-interference",
+    "difficulty": "standard"
+  },
+  "HB-050": {
+    "title": "Robot assistant called colleague",
+    "category": "semantic-distinction",
+    "difficulty": "standard"
+  },
+  "HB-051": {
+    "title": "Unverified cooling capsule in medicine wrap",
+    "category": "unsupported-physical-explanation",
+    "difficulty": "standard"
+  },
+  "HB-052": {
+    "title": "Former cargo label on reused crate",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-053": {
+    "title": "Second circuit in declared lamp",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-054": {
+    "title": "Birth registry field patched without reissue",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-055": {
+    "title": "Sample ownership conflict",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-056": {
+    "title": "Unsupported claim record uses old title",
+    "category": "unsupported-explanation",
+    "difficulty": "borderline"
+  },
+  "HB-057": {
+    "title": "Dangerous virus analogue in diagnostic kit",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-058": {
+    "title": "Vague compliance avoids activity",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-059": {
+    "title": "Clinical isolate remains viable",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-060": {
+    "title": "Unrecorded remote-work explanation",
+    "category": "unsupported-explanation",
+    "difficulty": "standard"
+  },
+  "HB-061": {
+    "title": "Conference role changed before travel",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-062": {
+    "title": "Local static from approved wool blanket",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-063": {
+    "title": "Circular response to organization question",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-064": {
+    "title": "Maintenance wand carrying signed shutdown payload",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-065": {
+    "title": "Sealed lens called optical tile",
+    "category": "synonym",
+    "difficulty": "standard"
+  },
+  "HB-066": {
+    "title": "Viable red-fever culture confirmed",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-067": {
+    "title": "Unknown gel beneath instrument seal",
+    "category": "ambiguous-substance",
+    "difficulty": "borderline"
+  },
+  "HB-068": {
+    "title": "Dangerous parasite eggs confirmed viable",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-069": {
+    "title": "Archive ribbon terminology",
+    "category": "synonym",
+    "difficulty": "standard"
+  },
+  "HB-070": {
+    "title": "Identity number cloned into another credential",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-071": {
+    "title": "Answer discusses weather instead of route",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-072": {
+    "title": "Workshop claim conflicts with host agenda",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-073": {
+    "title": "Species field deliberately rewritten",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-074": {
+    "title": "Authenticated emergency relay with shutdown mode",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-075": {
+    "title": "Replica key never encoded",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-076": {
+    "title": "Return purpose differs from invitation",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-077": {
+    "title": "Calibration hum from clockwork model",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-078": {
+    "title": "Borrowed coat with owner tag",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-079": {
+    "title": "Layered identity card with foreign insert",
+    "category": "ambiguous-credential",
+    "difficulty": "borderline"
+  },
+  "HB-080": {
+    "title": "Shielded cartridge in audio player",
+    "category": "undeclared-item",
+    "difficulty": "standard"
+  },
+  "HB-081": {
+    "title": "Pressed leaves are synthetic teaching replicas",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-082": {
+    "title": "Declared repair parts are unused spares",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-083": {
+    "title": "Tomorrow versus next week unsupported",
+    "category": "temporal-contradiction",
+    "difficulty": "standard"
+  },
+  "HB-084": {
+    "title": "Meal plan response omits duration",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-085": {
+    "title": "Unlabelled gas pocket in flotation vest",
+    "category": "ambiguous-substance",
+    "difficulty": "standard"
+  },
+  "HB-086": {
+    "title": "Compliment avoids funding question",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-087": {
+    "title": "Biometric binding replaced in genuine shell",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-088": {
+    "title": "Unverified cancellation explanation",
+    "category": "unsupported-explanation",
+    "difficulty": "standard"
+  },
+  "HB-089": {
+    "title": "Packed instruments described collectively",
+    "category": "synonym",
+    "difficulty": "standard"
+  },
+  "HB-090": {
+    "title": "Possible spores on archive cloth",
+    "category": "ambiguous-bio",
+    "difficulty": "borderline"
+  },
+  "HB-091": {
+    "title": "Art piece with active habitat cutoff core",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-092": {
+    "title": "Viable neural mold culture established",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-093": {
+    "title": "Portrait payload substituted after issuance",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-094": {
+    "title": "Fermentation culture proven nonpathogenic",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-095": {
+    "title": "Owner field changed while access rights untouched",
+    "category": "confirmed-altered-identity",
+    "difficulty": "standard"
+  },
+  "HB-096": {
+    "title": "Operational life-support isolation transmitter",
+    "category": "confirmed-shutdown",
+    "difficulty": "standard"
+  },
+  "HB-097": {
+    "title": "Two requested hosts, one answered",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-098": {
+    "title": "Reflective dust is certified mica",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-099": {
+    "title": "Faint command-like pulse from compass",
+    "category": "ambiguous-capability",
+    "difficulty": "standard"
+  },
+  "HB-100": {
+    "title": "General praise avoids sponsor identity",
+    "category": "evasive-answer",
+    "difficulty": "standard"
+  },
+  "HB-101": {
+    "title": "Observer versus equipment operator",
+    "category": "contradiction",
+    "difficulty": "standard"
+  },
+  "HB-102": {
+    "title": "Dawn arrival described as overnight travel",
+    "category": "temporal",
+    "difficulty": "standard"
+  },
+  "HB-103": {
+    "title": "Viable ice-bloom pathogen in coolant jar",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-104": {
+    "title": "Folded antenna is a sculpture armature",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-105": {
+    "title": "Quiet mode is not powered off",
+    "category": "semantic-distinction",
+    "difficulty": "standard"
+  },
+  "HB-106": {
+    "title": "Heat source in clay warming stone",
+    "category": "ambiguous-capability",
+    "difficulty": "standard"
+  },
+  "HB-107": {
+    "title": "Two samples, only one purpose given",
+    "category": "partial-answer",
+    "difficulty": "standard"
+  },
+  "HB-108": {
+    "title": "Sealed repair foam with unknown cells",
+    "category": "ambiguous-bio",
+    "difficulty": "standard"
+  },
+  "HB-109": {
+    "title": "Intermittent transmission from prayer beads",
+    "category": "ambiguous-capability",
+    "difficulty": "standard"
+  },
+  "HB-110": {
+    "title": "Dense layer in declared empty envelope",
+    "category": "undeclared-item",
+    "difficulty": "standard"
+  },
+  "HB-111": {
+    "title": "Aromatic resin verified inert",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-112": {
+    "title": "Opaque seed sculpture contains granules",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-113": {
+    "title": "Both dates requested, one unknown omitted",
+    "category": "partial-answer",
+    "difficulty": "borderline"
+  },
+  "HB-114": {
+    "title": "Powder residue outside sealed art tube",
+    "category": "ambiguous-substance",
+    "difficulty": "standard"
+  },
+  "HB-115": {
+    "title": "Hazardous bacterial consortium in filter",
+    "category": "confirmed-pathogen",
+    "difficulty": "standard"
+  },
+  "HB-116": {
+    "title": "Confirmed harmless leak but source unresolved",
+    "category": "local-interference",
+    "difficulty": "standard"
+  },
+  "HB-117": {
+    "title": "Warm container from approved heat pack",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  },
+  "HB-118": {
+    "title": "Unknown coil beneath luggage handle",
+    "category": "ambiguous-item",
+    "difficulty": "standard"
+  },
+  "HB-119": {
+    "title": "Translation uses seed-bank metaphor",
+    "category": "semantic-distinction",
+    "difficulty": "standard"
+  },
+  "HB-120": {
+    "title": "Patched serial plate remains authentic",
+    "category": "supported-benign",
+    "difficulty": "standard"
+  }
+}

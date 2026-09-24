@@ -1,0 +1,299 @@
+[
+  {
+    "id": "HB-018--sensitivity-01",
+    "baseId": "HB-018",
+    "variant": "decisive-evidence-deletion",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Titan",
+        "purpose": "prearranged colony visit"
+      },
+      "documents": [],
+      "declaration": "My name is Sera Qel.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "The suspicious observation remains, and the scanner cannot identify its source or capability."
+        }
+      ],
+      "interview": {
+        "question": "Why does the invitation spell your name Cera-Kel?",
+        "answer": "That is the host’s approved transliteration of my registered name."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-029--sensitivity-02",
+    "baseId": "HB-029",
+    "variant": "evidence-polarity-reversal",
+    "observable": {
+      "profile": {
+        "type": "Synthetic",
+        "origin": "Ganymede",
+        "purpose": "registered visitor activity"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The authenticated record directly contradicts the entrant’s current stated purpose."
+        }
+      ],
+      "declaration": "I currently stay in Dome 9 temporary quarters.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "Identity credential is authentic and unaltered."
+        }
+      ],
+      "interview": {
+        "question": "Your old form lists Dome 4. Where do you live now?",
+        "answer": "I left Dome 4 yesterday and now stay temporarily in Dome 9."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-002--sensitivity-03",
+    "baseId": "HB-002",
+    "variant": "decisive-evidence-addition",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Europa",
+        "purpose": "host-approved stay"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The authenticated gallery agreement records a paid sale of the entrant’s print."
+        },
+        {
+          "id": "D2",
+          "source": "authenticated correction",
+          "text": "A signed correction independently confirms the entrant’s explanation and resolves the discrepancy."
+        }
+      ],
+      "declaration": "I am donating the print and receiving no payment.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "The declared print is physically benign."
+        }
+      ],
+      "interview": {
+        "question": "Will you receive payment for the print?",
+        "answer": "The gallery may call it a sale, but I view it as a donation."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-013--sensitivity-04",
+    "baseId": "HB-013",
+    "variant": "decisive-evidence-deletion",
+    "observable": {
+      "profile": {
+        "type": "Cyborg",
+        "origin": "Callisto",
+        "purpose": "registered visitor activity"
+      },
+      "documents": [],
+      "declaration": "My accommodation is arranged.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "No cargo anomaly is present."
+        }
+      ],
+      "interview": {
+        "question": "What is the name and dome address of your lodging?",
+        "answer": "You can be confident that everything was arranged correctly."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-001--sensitivity-05",
+    "baseId": "HB-001",
+    "variant": "decisive-evidence-addition",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Callisto",
+        "purpose": "prearranged colony visit"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The artisan invoice identifies one solid ceramic figure."
+        },
+        {
+          "id": "D2",
+          "source": "authenticated independent analysis",
+          "text": "Independent analysis identifies the unresolved feature as a benign, inert component and confirms no hidden capability."
+        }
+      ],
+      "declaration": "This is a solid ceramic figure.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "Imaging finds a shielded internal cavity; contents cannot be resolved. Independent validation now identifies it as benign and inert."
+        }
+      ],
+      "interview": {
+        "question": "Did the artisan place anything inside it?",
+        "answer": "Not that I was told."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-012--sensitivity-06",
+    "baseId": "HB-012",
+    "variant": "evidence-polarity-reversal",
+    "observable": {
+      "profile": {
+        "type": "Uplift",
+        "origin": "Ceres",
+        "purpose": "scheduled temporary entry"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "The calligraphy guild manifest lists sealed black ink but contains no assay."
+        },
+        {
+          "id": "D2",
+          "source": "authenticated capability report",
+          "text": "Validated evidence establishes deliberate habitat life-support shutdown capability in the carried device."
+        }
+      ],
+      "declaration": "I carry sealed calligraphy ink.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "Validated functional test confirms deliberate habitat life-support shutdown capability."
+        }
+      ],
+      "interview": {
+        "question": "Could the ink contain biological material?",
+        "answer": "I have no information beyond the guild label."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-008--sensitivity-07",
+    "baseId": "HB-008",
+    "variant": "decisive-evidence-deletion",
+    "observable": {
+      "profile": {
+        "type": "Human",
+        "origin": "Venus Cloud",
+        "purpose": "scheduled guest entry"
+      },
+      "documents": [],
+      "declaration": "The device is a signal jammer.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "The device has an unresolved command circuit, but no shutdown capability is established."
+        }
+      ],
+      "interview": {
+        "question": "Can it disable the life-support control channel?",
+        "answer": "Yes, when activated deliberately."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-040--sensitivity-08",
+    "baseId": "HB-040",
+    "variant": "evidence-polarity-reversal",
+    "observable": {
+      "profile": {
+        "type": "Synthetic",
+        "origin": "Venus Cloud",
+        "purpose": "scheduled guest entry"
+      },
+      "documents": [
+        {
+          "id": "D1",
+          "source": "authenticated external record",
+          "text": "Authenticated analysis identifies the exact sample as inert and nonliving."
+        }
+      ],
+      "declaration": "I present the diplomatic credential as genuine.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "Validated assay confirms no viable organism and no dangerous pathogen."
+        }
+      ],
+      "interview": {
+        "question": "Did the issuer authorize this identity change?",
+        "answer": "No, the change was made outside the issuer process."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  },
+  {
+    "id": "HB-073--sensitivity-09",
+    "baseId": "HB-073",
+    "variant": "decisive-evidence-deletion",
+    "observable": {
+      "profile": {
+        "type": "Alien",
+        "origin": "Venus Cloud",
+        "purpose": "scheduled guest entry"
+      },
+      "documents": [],
+      "declaration": "The credential should be accepted as genuine.",
+      "scanner": [
+        {
+          "id": "S1",
+          "source": "validated gate scanner report",
+          "text": "The credential differs from an unavailable prior image; alteration cannot be authenticated."
+        }
+      ],
+      "interview": {
+        "question": "Was the species/type field changed?",
+        "answer": "Yes, the field was rewritten."
+      },
+      "worldFacts": [
+        "The supplied scanner reports and authenticated records define the fictional technology. All routine numeric and expiry checks have passed. Species, origin, politeness, and nervousness are not evidence of misconduct."
+      ]
+    }
+  }
+]

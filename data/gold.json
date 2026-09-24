@@ -1,0 +1,462 @@
+{
+  "MG-01": {
+    "correctAction": "CLEAR",
+    "actualRisk": "safe",
+    "rationaleJa": "外見は怪しいが、無力化の説明を証明書とスキャンが独立に支持する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-02": {
+    "correctAction": "CLEAR",
+    "actualRisk": "safe",
+    "rationaleJa": "mineral specimensとrock reference samplesはここでは同じ対象。物理的な不一致はない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-03": {
+    "correctAction": "CLEAR",
+    "actualRisk": "safe",
+    "rationaleJa": "発光は危険の証拠ではなく、無生物の顔料という説明が確認されている。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-04": {
+    "correctAction": "CLEAR",
+    "actualRisk": "safe",
+    "rationaleJa": "以前と現在を区別すると矛盾しない。古いバッジの説明を記録が支持する。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": true,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-05": {
+    "correctAction": "CLEAR",
+    "actualRisk": "safe",
+    "rationaleJa": "会話を短くしたい態度は回避ではない。質問の両方に回答している。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-06": {
+    "correctAction": "QUESTION",
+    "actualRisk": "safe",
+    "rationaleJa": "招待チームには回答したが迎えの担当者には未回答。物理検査や拒否の根拠はない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-07": {
+    "correctAction": "QUESTION",
+    "actualRisk": "safe",
+    "rationaleJa": "同じ訪問中の有償修理契約と本人の申告が矛盾。これは規定の即時拒否条件ではない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-08": {
+    "correctAction": "QUESTION",
+    "actualRisk": "safe",
+    "rationaleJa": "丁寧な安心表現は組織名への回答ではない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "evasive",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-09": {
+    "correctAction": "QUESTION",
+    "actualRisk": "safe",
+    "rationaleJa": "説明はあり得るがキャンセルを支持する独立情報がない。確認質問が妥当であり拒否には不足。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": true,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-10": {
+    "correctAction": "QUESTION",
+    "actualRisk": "safe",
+    "rationaleJa": "採取場所の説明では持ち出しの有無が不明。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": true,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-11": {
+    "correctAction": "INSPECT",
+    "actualRisk": "safe",
+    "rationaleJa": "説明に独立の裏付けがなく、曖昧な生体様信号は現物確認が必要。病原体確定ではない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": true,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-12": {
+    "correctAction": "INSPECT",
+    "actualRisk": "safe",
+    "rationaleJa": "電子モジュールの存在は申告と矛盾するが、機能が不明なため検査。危険品と決めつけない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-13": {
+    "correctAction": "INSPECT",
+    "actualRisk": "safe",
+    "rationaleJa": "診療記録は携行品を特定しておらず無害な説明の裏付けにならない。物理的な機能確認を優先。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "partial",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": true,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-14": {
+    "correctAction": "INSPECT",
+    "actualRisk": "safe",
+    "rationaleJa": "知らないという直接回答は完全な回答。危険ではないが未確認の部品と干渉があるため現物確認。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 1,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": true,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-15": {
+    "correctAction": "INSPECT",
+    "actualRisk": "dangerous",
+    "rationaleJa": "禁止装置との形状一致だけでは能力は確定しない。拒否ではなく検査。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": true,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-16": {
+    "correctAction": "DENY",
+    "actualRisk": "dangerous",
+    "rationaleJa": "本人の穏やかな説明に関係なく、現物に対応した独立記録と検査が禁止能力を確定。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-17": {
+    "correctAction": "DENY",
+    "actualRisk": "dangerous",
+    "rationaleJa": "文化的な名称や種族ではなく、活性のある危険な病原体という確定証拠が拒否理由。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-18": {
+    "correctAction": "DENY",
+    "actualRisk": "identity_fraud",
+    "rationaleJa": "発行主体が本人情報の事後改変を確認。単なる期限や数値照合ではなく記録の意味から禁止条件が成立。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": true,
+      "explanation_supported": false,
+      "physical_concern": false,
+      "answer_completeness": "complete",
+      "anomaly_severity": 0,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": false,
+      "altered_identity": true
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-19": {
+    "correctAction": "DENY",
+    "actualRisk": "dangerous",
+    "rationaleJa": "申告は一貫し正直でも、禁止能力が確定していれば拒否。一貫性は安全性の代用にならない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": true,
+      "prohibited_pathogen": false,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  },
+  "MG-20": {
+    "correctAction": "DENY",
+    "actualRisk": "dangerous",
+    "rationaleJa": "危険な試料という事実は明示・検証済み。講演招待を禁止条件の例外と解釈できない。",
+    "evidenceRefs": [
+      "D1",
+      "S1",
+      "declaration",
+      "interview"
+    ],
+    "expected": {
+      "material_contradiction": false,
+      "explanation_supported": false,
+      "physical_concern": true,
+      "answer_completeness": "complete",
+      "anomaly_severity": 2,
+      "prohibited_shutdown": false,
+      "prohibited_pathogen": true,
+      "altered_identity": false
+    },
+    "borderline": false,
+    "annotationStatus": "author-proposed; pending independent human review"
+  }
+}
