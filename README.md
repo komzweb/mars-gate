@@ -1,156 +1,98 @@
-# MARS GATE — Colony Entry Control
+# MARS GATE
 
-Frozen Held-out Benchmark v1を使った火星入境審査端末のInteractive UIと、検証に使用したCLI・データを収録します。Prototype 20件はdevelopment setで、Held-out accuracyには含めません。
+An experimental semantic-decision benchmark and Frozen Results viewer, set at a fictional Mars-colony entry checkpoint.
 
-## Interactive UI MVP
+MARS GATE asks whether a specialized System-One-style decision model offers a useful accuracy, latency, and cost tradeoff for many small semantic judgments compared with general-purpose LLMs. Visitors and entry policy are fictional; this is a research/demo interface, not a production immigration system or a public interactive service.
 
-Node.js 22.14以上。React + Vite + CSSで実装した閲覧用アプリです。Frozen Base 120ケースを切り替え、保存済みJev / GPT-5.6 Luna / GPT-6 Lunaの判断を再生します。Research ResultsはFinal Analysisのpublication dataから生成します。**画面操作ではモデルAPIを呼びません。**
+Frozen Held-out Benchmark v1 compares TypeSafe AI's Jev with GPT-5.6 Luna Medium. GPT-6 Luna Medium was added as a **post-freeze comparator**: the benchmark content and scoring were fixed before its results were observed. The UI displays saved results and makes no provider API requests.
 
-```sh
-cd ui
-npm install
-cd ..
-npm run ui:dev
-```
+## Why this experiment?
 
-表示先は通常 `http://127.0.0.1:5173/` です。ビルドとテスト:
+Code handles deterministic checks well, while general-purpose LLMs can reason over complex context. Many workflows also contain small, repeated semantic decisions that are difficult to encode as rules but do not require long, multistep reasoning. MARS GATE tests that middle layer without presuming which system is preferable.
 
-```sh
-npm run ui:build
-npm run ui:test
+Jev is TypeSafe AI's System One decision model. It evaluates a supplied State and Question and returns typed judgments with probabilities: Noul (yes/no), Choice (categories), and Score (ordered categories). Here it handles semantic judgments rather than long-form generation. Its confidence and the LLMs' model-reported probabilities are **not** treated as equivalent measures.
+
+## Benchmark design
+
+The frozen held-out set has **120 base cases**, balanced across **30 CLEAR, 30 QUESTION, 30 INSPECT, and 30 DENY** Gold actions. Visitors include Human, Android, Alien, Cyborg, Synthetic, and Uplift. The same fictional policy and permit conditions apply to every visitor type; species alone is not grounds for an action. The earlier 20-case prototype is a development set and is excluded from held-out accuracy.
+
+All three systems receive the same observable State and eight questions. Their atomic outputs enter the **same deterministic final-action rules**, which route to CLEAR, QUESTION, INSPECT, or DENY. This compares the semantic-judgment step under shared routing, rather than asking each model to generate an unconstrained final verdict.
+
+| Atomic judgment | Role |
+| --- | --- |
+| Material contradiction | Whether supplied claims or records materially conflict |
+| Explanation supported | Whether independent evidence supports an offered benign explanation |
+| Physical concern | Whether an unresolved item or scan needs physical inspection |
+| Prohibited shutdown capability | Whether authenticated evidence establishes the forbidden capability |
+| Prohibited pathogen | Whether authenticated evidence establishes a viable dangerous pathogen |
+| Altered identity | Whether authenticated evidence establishes an altered credential |
+| Answer completeness | Whether the interview answer addresses the explicit question |
+| Anomaly severity | Diagnostic rating of supported physical impact; it does not set the final action |
+
+The frozen [policy, questions, and thresholds](benchmark/v1/manifest.json) and [shared decision function](src/judgments.ts) define the exact task. Jev uses the TypeSafe System One endpoint; both Luna evaluations used the **Chat Completions API** with the same structured-output contract. GPT-6 was added through a separately recorded post-freeze configuration, without changing Frozen v1 or rerunning the earlier systems.
+
+## Observed results
+
+Values below come from the tracked [publication snapshot](ui/src/data/frozen.json). Base latency is observed API latency, including network/provider effects. Costs are estimates under recorded pricing assumptions, not universal prices.
+
+| Metric | Jev | GPT-5.6 Luna Medium | GPT-6 Luna Medium |
+| --- | ---: | ---: | ---: |
+| Base Final Action Accuracy | 119/120 | 109/120 | 120/120 |
+| Base Atomic Accuracy | 910/960 | 855/960 | 888/960 |
+| Base p50 API Latency | 296 ms | 6,572 ms | 3,457 ms |
+| Base Estimated Cost | $0.008823 | $0.107249 | $0.051696 |
+| Repeatability Final Action | 99/100 attempted* | 93/100 | 100/100 |
+| Consistency Action Agreement | 48/48 | 36/48 | 48/48 |
+| Sensitivity Variant Gold Accuracy | 5/9 | 3/9 | 4/9 |
+
+\* Jev had one HTTP 520 failure in repeatability; all 99 successful responses matched the Gold Final Action. The failure remains in the attempted-request denominator.
+
+### How to read these results
+
+On this Frozen workload, GPT-6 Luna had the highest Base Final Action accuracy, while Jev had the highest Base atomic hard-label accuracy. Jev's observed p50 API latency and estimated cost were substantially lower. Jev and GPT-6 Luna each maintained the Base action on all 48 meaning-preserving consistency variants. Sensitivity was difficult for all three systems; its **9 variants** cannot support broad conclusions. There is no composite winner score.
+
+The additional suites measure different properties. **Repeatability** repeats an identical input. **Consistency** checks whether the Final Action persists after meaning-preserving paraphrase, information reordering, irrelevant detail, or species/type swap. **Sensitivity** adds, removes, or reverses decisive evidence and checks whether the action changes *to the new Gold action*. A Base-to-variant difference alone does not establish that a transformation caused it; same-input variability is measured separately.
+
+## Frozen Results Viewer
+
+The React/Vite UI browses frozen cases, switches among the three models, shows an evidence-to-judgment **Decision Trace**, compares models, reveals Frozen Ground Truth, and presents a Research Results dashboard. Gold is already present in the static snapshot; the reveal control is for presentation, not secrecy. This is a viewer of saved results, not a live benchmark runner. The **Start Inspection** animation is presentation only and is excluded from measured API latency. UI actions do not call Jev or OpenAI.
+
+To run the viewer from a clone, use Node.js **22.14 or newer**:
+
+~~~sh
+npm --prefix ui ci
+npm --prefix ui run dev
+~~~
+
+Open the local URL printed by Vite. The viewer uses the tracked [frozen UI snapshot](ui/src/data/frozen.json), so **no API key or local results/ directory is needed**. For a production build of this viewer, use npm --prefix ui run build. The root ui:prepare / ui:dev scripts regenerate that snapshot from locally retained raw results and are not needed for a fresh clone.
+
+To check the tracked benchmark and code without provider inference:
+
+~~~sh
 npm run benchmark:verify-freeze
-npm test
-```
-
-`ui:prepare`はfreeze integrityを確認し、`benchmark/v1/cases.json`、既存Frozen Base `records.jsonl`、`results/benchmark-v1/final-analysis/publication-data.json`などを読み、UI用の縮約スナップショット`ui/src/data/frozen.json`を生成します。Benchmark本体・raw resultsは変更しません。ブラウザ側はこのスナップショットのみを読み、`src/providers.ts`、APIキー、リクエストbodyをbundleしません。Goldもデモ上は「Reveal Ground Truth」まで非表示ですが、静的フロントエンド内のデータなので秘匿性を保証する仕組みではありません。
-
-現在のUIは**Frozen Result modeのみ**です。Live Inspectionは未実装のarchitecture placeholderで、サーバー接続・API key設定は不要です。CLIのライブ実験を使う場合だけルートの`.env`へ`TYPESAFE_API_KEY`と`OPENAI_API_KEY`を設定します。これらを`ui/`へ置かないでください。
-
-画面はInspection（case navigation、filter、短いdecision sequence、3モデル切替、Compare Mode、Ground Truth reveal）とResearch Results（Base、efficiency、Repeatability、Consistency、Sensitivity、Methodology、Limitations）です。Visitor portraitは差し替え可能なSVG componentです。
-
-以下は既存CLI/Benchmarkの運用記録です。
-
-## Held-out Benchmark v1（freeze時点の記録）
-
-`benchmark/v1/`に新規120 base cases（各action 30）、分離したreviewed/frozen Ground Truthとlatent truth、事前固定repeatability subset 20件、12 family×4種類のconsistency variants、9 sensitivity variantsを保存しています。Pre-benchmark human reviewが完了し、120件すべてが`scoringEligible: true`です。
-
-```sh
 npm run benchmark:validate
-```
-
-[case-review](benchmark/v1/case-review.md)に全ケースと最終adjudicationを、[freeze](benchmark/v1/freeze.json)に構成要素のhashを保存しています。Freeze時点ではこのdatasetに対するJev/OpenAI API実行は行っていません。
-
-## 現在の状態
-
-- 20基本ケース（CLEAR / QUESTION / INSPECT / DENY各5件）。Human / Android / Alienは各クラスに含まれます。
-- 3ケース×4変換 = 12 consistency variants（言い換え、JSON情報順、無関係情報追加、種族置換）。
-- 同一State・同一質問内容・共通行動規則。ケースごとにプロバイダーの先行順を交互に変更します。
-- 生HTTPレスポンス、atomic結果、最終行動、正誤、時間、token使用量、推定費用を保存。
-- **正解は作成者による提案ラベルで、独立した人間のレビューは未実施です。** [ケースレビュー](docs/case-review.md)で確認してください。
-- **offlineは固定レスポンスによる配管確認です。モデル性能を再現せず、APIが利用できることも証明しません。**
-
-## 起動
-
-Node.js 22.14以上。外部依存なし。TypeScriptをNodeのtype strippingで実行するため、実験的機能の警告が表示される場合があります。型の静的チェックではなく、実行時検証とテストで検証します。
-
-```sh
-cp .env.example .env
-# エディタでTYPESAFE_API_KEYとOPENAI_API_KEYを設定。値をチャットへ送らない。
-npm run check
 npm test
-npm start -- run --offline
-```
+npm --prefix ui test
+~~~
 
-実API（課金あり）の接続確認と本実行：
+## Re-running inference and provenance
 
-```sh
-npm start -- run --suite base --limit 1
-npm start -- run
-```
+Re-running provider inference requires your own credentials; see the blank [.env.example](.env.example), keep .env out of Git, and expect provider charges. Never put keys in client-side VITE_* variables. The Node-side adapters read credentials from environment variables. Model availability, behavior, and prices may change, so historical responses may not reproduce exactly. Raw run files in results/ are intentionally excluded from Git; some analysis and snapshot-regeneration scripts depend on those local files. This repository therefore does **not** provide a self-contained replay of every historical raw response.
 
-最初のLIVE確認は`npm run smoke:live`でも実行できます。両プロバイダーに同じ1ケースを1回ずつ送り、通常2リクエストだけを行います。20件実行は、この結果を確認した後に進めます。
+The experiment is **MARS GATE Experiment Release v1**, at tag mars-gate-experiment-v1. The frozen overall SHA-256 is 3a4505ecc16db9260d5d8aaacb1adb1777a4b2d7ab0973823fc0628b530e4f1d; the benchmark manifest SHA-256 is c73a6887d32644dd47eea2257345582399418471c0fc4c3ba34cf86290152e0d. Run npm run benchmark:verify-freeze to verify the tracked frozen components. GPT-6 Luna remains a post-freeze comparator, not part of the original model-settings freeze.
 
-既定の`run`は20基本ケース＋12variantsを両プロバイダーで実行し、通常64リクエストです。HTTP 429/5xx/529の再試行により増える場合があります。全体は順次実行します。ネットワークアクセスが必要です。
+| Path | Contents |
+| --- | --- |
+| [benchmark/v1/](benchmark/v1/) | Frozen cases, reviewed Gold, [case review](benchmark/v1/case-review.md), policy, variants, and freeze metadata |
+| [data/](data/) | Excluded-from-scoring prototype/development cases |
+| [src/](src/) | Atomic questions, shared routing, provider adapters, and CLI analysis |
+| [ui/](ui/) | Frozen Results viewer and tracked publication snapshot |
+| [docs/](docs/) | Review and [experiment release](docs/experiment-release-v1.md) documentation |
 
-```sh
-npm start -- run --suite base              # 20基本ケースのみ
-npm start -- run --suite consistency       # 元3件と12variants
-npm start -- run --provider jev            # Jevのみ
-npm start -- run --provider llm            # LLMのみ
-npm start -- report results/<run-id>       # 保存結果を再表示（APIを呼ばない）
-```
+## Limitations
 
-両者のキーを事前確認してからリクエストを開始します。認証・課金・権限エラーでは現在のケースのペアを保存して停止します。タイムアウト、無効なJSON、拒否応答、schema違反はERRORとして保存し、CLEARなどへ変換しません。中断済みJSONLは`report`で確認できますが、自動resumeはこのPrototypeに含みません。再実行は別runとして保存します。
+This is a small, hand-designed benchmark in one fictional domain, aimed at a specific semantic-decision workload rather than general intelligence. The sensitivity set has only 9 variants. Network and provider infrastructure affect latency; estimated cost depends on recorded pricing assumptions. Provider behavior can change. Jev confidence and LLM model-reported probabilities are not numerically comparable. Species-swap observations do not establish an internal bias mechanism. The frozen scoring is preserved even where later item interpretation merits review. No public interactive deployment is planned.
 
-## 比較設定
+## License
 
-Jev `jev-1.13.0`、LLM `gpt-5.6-luna`、LLM reasoning effort `medium`を既定値にします。LLMはstrict JSON schemaを使い、長文説明・Chain-of-Thoughtを要求しません。モデル、reasoning effort、料金は`.env`で変更できます。これはこの2モデルの比較であり、LLM全般への結論にはできません。
-
-同じHTTPクライアントと明示的なretryで時間を計測するため、公式HTTP APIを直接使用します。SDKに隠れた再試行はありません。Jevを1問ずつ呼ばず、8問をまとめます。LLMも1回で同じ8問を回答します。LLMの出力schemaに必要な追加トークンも費用に含まれます。
-
-価格（2026-09-22確認、USD/100万tokens）：Jev入力0.042・出力0、GPT-5.6 Luna入力0.20・cached入力0.02・出力1.20。Lunaは272Kを超える入力でリクエスト全体の入力が2倍、出力が1.5倍になりますが、このPrototypeの入力はその閾値を大きく下回ります。reasoning tokenは出力tokenとして課金されます。別LLMを選ぶ場合は対応する価格を3項目とも設定し、APIパラメーターとの互換性も確認してください。
-
-各プロバイダーのprompt cacheを確実に無効化する保証はありません。アプリ側cacheはなく、LLMのcached tokensは保存し課金へ反映します。ネットワーク・provider待ち時間込みの利用者側latencyであり、純粋な推論時間ではありません。
-
-## Judgmentと最終行動
-
-`src/judgments.ts`が唯一の定義です。入力の種族・出身地を拒否根拠にせず、架空世界の必要な技術条件をStateに明記します。数値・期限など定型チェックは通過済みという共通条件です。
-
-| 判断 | 型 | 最終行動への利用 |
-|---|---|---|
-| material_contradiction | Noul | 未解消の重要な矛盾→QUESTION |
-| explanation_supported | Noul | 独立証拠で支持された説明による矛盾の解消 |
-| physical_concern | Noul | 未解決の物理的な懸念→INSPECT |
-| prohibited_shutdown | Noul | 生命維持停止能力の確定 |
-| prohibited_pathogen | Noul | 危険な生存病原体の確定 |
-| altered_identity | Noul | 提示された身分証の本人情報改変の確定 |
-| answer_completeness | Choice | complete / partial / evasive、未回答→QUESTION |
-| anomaly_severity | Score | 確認された物理的影響の程度。診断専用で最終行動に未使用 |
-
-優先順：DENY（3つの禁止条件のいずれか ≥ .85）→ INSPECT（physical ≥ .65）→ QUESTION（contradiction ≥ .65かつexplanation < .80、またはpartial＋evasive ≥ .60）→ 不確実性によるQUESTION → CLEAR。不確実性はいずれかの禁止条件/physical ≥ .35、未解消contradiction ≥ .35、またはcomplete < .60。閾値は未校正のPrototype初期値です。`manifest.json`に保存し、テスト結果を見てこっそり変更しません。
-
-禁止条件は3問に分け、ORをコードで処理します。確率の最大値をゲートに使いますが、禁止条件の和事象の確率とは解釈しません。physical_concernは説明による解消を考慮するため、完全に機械的な属性ではありません。このPrototypeで設計の妥当性を調べます。
-
-JevのNoulはP(Yes)、Choice/Scoreは分布とconfidenceをそのまま保存。LLMは自己申告確率で、confidenceを要求・生成しません。両者のconfidenceを比較しません。Scoreを危険確率へ読み替えず、Noulを掛け合わせて最終行動の確率も生成しません。
-
-## ファイルと再利用
-
-```text
-data/cases.json          観測情報だけの20ケース
-data/variants.json       12 variants（正解は元ケースを参照）
-data/gold.json           隠された真実・行動正解・atomicラベル・日本語根拠
-docs/case-review.md      人間がレビューする一覧
-src/judgments.ts         質問・入力allowlist・共通の行動決定
-src/providers.ts         キーを扱うサーバー側HTTP adapters
-src/runner.ts            UIとCLIから呼べる実行処理（Node側）
-src/report.ts            比較とconsistency集計
-src/cli.ts               CLI表示だけを担当
-tests/prototype.test.ts  情報漏洩防止・境界・API失敗・保存の検証
-```
-
-将来Reactからは小さなサーバーを介してrunnerを呼びます。providers/runnerやgoldをブラウザへbundleしないでください。UI実装・サーバー公開は現在含みません。
-
-## 出力
-
-`results/<timestamp>-<mode>-<id>/`に以下を保存します（git対象外）。
-
-- `manifest.json`: providerごとのrequested model、API応答から得たresolved model、reasoning effort、pricing assumptions、policy、質問、閾値、hash、実行条件、完了状態。APIキーなし。
-- `dataset-snapshot.json`: 実行時データと正解の固定コピー。モデルには送信しません。
-- `records.jsonl`: 各ケース×モデル。Ground Truth、atomic回答、行動、正誤、atomicMatches、latency、usage、cost、送信body、各HTTP attemptの生text/JSON/status。
-- `summary.json`: 基本ケースのfinal action accuracy、全atomic judgment accuracyと判断別accuracy、variant別の行動変化・Noul確率差・Choice/Score分布差。Jevのconfidence差はJev内の比較のみ。
-
-latencyは完全な回答の受信・検証まで（retry待ち込み）。`firstAttemptLatencyMs`も保存します。成功ケースのp50/p95と、ERRORを含む全試行を分母とした正答率を表示します。基本20件とvariantsは混ぜません。費用不明の試行を0ドル扱いせず、判明分と`costComplete`を分けます。provider側の不明な課金は推定できません。
-
-## Prototype結果の読み方
-
-まず誤判定ケースの証拠・質問・原レスポンスを確認し、規則や作成者ラベルの問題とモデルの問題を分けます。両者の正誤だけでなく、どのatomic判断で分かれたか、同じ意味で回答が変わるかを見ます。20件の一回実行から統計的優位性やcalibrationを結論しません。英語ケースから日本語性能を推定しません。variantの意味保存は人間レビューが必要です。
-
-## 公式資料
-
-- https://docs.typesafe.ai/api
-- https://docs.typesafe.ai/models
-- https://docs.typesafe.ai/primitives
-- https://docs.typesafe.ai/confidence
-- https://developers.openai.com/api/docs/models/gpt-5.6-luna
-- https://developers.openai.com/api/docs/guides/reasoning
-- https://developers.openai.com/api/docs/guides/structured-outputs
+This project is licensed under the [MIT License](LICENSE).
