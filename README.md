@@ -55,6 +55,8 @@ The additional suites measure different properties. **Repeatability** repeats an
 
 ## Frozen Results Viewer
 
+The Inspection scanner displays type-specific pixel-art characters for Human, Android, Alien, Cyborg, Synthetic, and Uplift visitors, preserving their aspect ratios and using a consistent display height.
+
 The React/Vite UI browses frozen cases, switches among the three models, shows an evidence-to-judgment **Decision Trace**, compares models, reveals Frozen Ground Truth, and presents a Research Results dashboard. Gold is already present in the static snapshot; the reveal control is for presentation, not secrecy. This is a viewer of saved results, not a live benchmark runner. The **Start Inspection** animation is presentation only and is excluded from measured API latency. UI actions do not call Jev or OpenAI.
 
 To run the viewer from a clone, use Node.js **22.14 or newer**:

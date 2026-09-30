@@ -3,12 +3,42 @@ import React from 'react';
 import {afterEach,beforeEach,describe,it,expect,vi} from 'vitest';
 import {render,screen,fireEvent,act,cleanup} from '@testing-library/react';
 import App from './App.jsx';
+import {getCase} from './lib/benchmark.js';
 
 beforeEach(()=>{vi.useFakeTimers();Element.prototype.scrollIntoView=vi.fn();window.matchMedia=vi.fn().mockReturnValue({matches:false})});
 afterEach(()=>{cleanup();vi.useRealTimers()});
 function inspect(){fireEvent.click(screen.getByRole('button',{name:/start inspection/i}));act(()=>vi.advanceTimersByTime(1500));}
 
 describe('MARS GATE inspection UI',()=>{
+ it('keeps the visitor image in sync with filters, navigation, and replay',()=>{
+  render(<App/>);
+  const selectedCase=()=>screen.getByRole('combobox',{name:'Select case'}).value;
+  const portrait=()=>screen.getByRole('img',{name:/visitor portrait inside the entry scanner/i});
+  const image=()=>portrait().querySelector('img');
+  const expectCurrentImage=()=>{
+   const type=getCase(selectedCase()).observable.profile.type;
+   expect(portrait().getAttribute('aria-label')).toContain(type);
+   expect(image().getAttribute('src')).toMatch(new RegExp(`${type.toLowerCase()}\\.png`));
+  };
+  expectCurrentImage();
+  fireEvent.click(screen.getByRole('button',{name:'Next case'}));expectCurrentImage();
+  fireEvent.click(screen.getByRole('button',{name:'Previous case'}));expectCurrentImage();
+  const beforeRandom=selectedCase();
+  fireEvent.click(screen.getByRole('button',{name:'Random case'}));
+  expect(selectedCase()).not.toBe(beforeRandom);expectCurrentImage();
+  for(const type of ['Human','Android','Alien','Cyborg','Synthetic','Uplift']){
+   fireEvent.change(screen.getByRole('combobox',{name:'Filter cases by visitor type'}),{target:{value:type}});
+   expect(getCase(selectedCase()).observable.profile.type).toBe(type);
+   expectCurrentImage();
+  }
+  fireEvent.click(screen.getByRole('button',{name:/start inspection/i}));
+  expect(portrait().className).toContain('portrait-active');
+  act(()=>vi.advanceTimersByTime(1500));
+  fireEvent.click(screen.getByRole('button',{name:/replay inspection/i}));
+  expect(portrait().className).toContain('portrait-active');
+  act(()=>vi.advanceTimersByTime(1500));
+  expect(screen.getByText('ROUTE ACTIVE')).toBeTruthy();
+ });
  it('renders frozen Final Action and route after inspection',()=>{
   render(<App/>);expect(screen.getByText('ENTRY GATE / A-17')).toBeTruthy();
   inspect();
